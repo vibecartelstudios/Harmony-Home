@@ -481,4 +481,100 @@ body {
     padding: 5px 10px;
     border-radius: 20px;
     font-size: 12px;
+
+}
+
+/* ========================= */
+/* MOBILE RESPONSIVE FIXES */
+/* ========================= */
+
+@media (max-width: 768px) {
+
+    /* Navbar */
+    .navbar {
+        padding: 15px 20px;
+    }
+
+    .navbar ul {
+        gap: 15px;
+        font-size: 14px;
+    }
+
+    .logo {
+        font-size: 18px;
+    }
+
+    /* Hero */
+    .hero h1 {
+        font-size: 38px;
+        letter-spacing: 4px;
+    }
+
+    .tagline {
+        font-size: 22px;
+    }
+
+    /* Sections */
+    .section {
+        padding: 80px 20px;
+    }
+
+    .section h2 {
+        font-size: 26px;
+    }
+
+    .section p {
+        font-size: 14px;
+    }
+
+    /* Cards */
+    .cards {
+        gap: 20px;
+    }
+
+    .card {
+        width: 100%;
+        padding: 40px 25px;
+    }
+
+    /* Trust & Testimonial */
+    .section-title {
+        font-size: 28px;
+    }
+
+    .trust-section,
+    .testimonial-section,
+    .faq-section {
+        padding: 70px 20px;
+    }
+
+    /* Signature Finder */
+    .signature-box {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .signature-box input,
+    .signature-box select {
+        width: 100%;
+    }
+
+    .result-box {
+        padding: 25px;
+        font-size: 16px;
+    }
+
+    /* Volume Button */
+    .volume-toggle {
+        font-size: 14px;
+        padding: 12px 25px;
+    }
+
+}
+
+@media (max-width: 600px) {
+    .navbar {
+        flex-direction: column;
+        gap: 10px;
+    }
 }
