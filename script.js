@@ -205,4 +205,13 @@ function generatePerfume() {
         resultBox.classList.add("show");
 
     }, 300);
+
 }
+window.onload = function () {
+    window.scrollTo(0, 0);
+};
+
+window.addEventListener("load", () => {
+    history.scrollRestoration = "manual";
+    window.scrollTo(0, 0);
+});
