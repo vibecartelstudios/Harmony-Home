@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HARMONY - Home</title>
+<link rel="icon" type="image/png" href="HX (1).png">
+
+<link rel="stylesheet" href="style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=Great+Vibes&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+</head>
+<body>
+
+<!-- Scroll Progress -->
+<div id="progress-bar"></div>
+
+<!-- Navbar -->
+<nav class="navbar">
+    <div class="logo">HARMONY. .</div>
+    <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#collection">Collections</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+
+<!-- Hero -->
+<section class="hero">
+    <div class="hero-content fade">
+        <h1>HARMONY. .</h1>
+        <p class="tagline">The Fragrance of Music</p>
+        <button class="cta-btn magnetic">Discover</button>
+    </div>
+</section>
+
+<!-- About -->
+<section id="about" class="section fade">
+    <h2>Our Symphony Began in 2026</h2>
+    <p>
+        Where fragrance meets harmony.
+Every creation by HARMONY is composed like music—balanced, layered, and unforgettable.
+This collection is designed for those who appreciate luxury, character, and lasting impressions.
+    </p>
+</section>
+
+<!-- Collection -->
+<section id="collection" class="section fade">
+    <h2>Our Collections Yet</h2>
+
+    <button class="volume-toggle" id="volumeBtn">
+        Explore Volume I
+    </button>
+
+    <div class="cards volume-content" id="volumeContent">
+        <div class="card">
+            <h3>Blue Wave</h3>
+            <p>Daytime & Summer for Everyday elegance</p>
+        </div></a>
+
+        <div class="card">
+            <h3>Broot Musk</h3>
+            <p>Night & Winter for Strong personalities</p>
+        </div></a>
+
+        <div class="card">
+            <h3>Sabaya</h3>
+            <p>Day & Evening for Elegant occasions</p>
+        </div></a>
+
+        <div class="card">
+            <h3>Ameer Al Oudh</h3>
+            <p>Special occasions for Traditional luxury</p>
+        </div></a>
+
+       <div class="card">
+            <h3>Original XX</h3>
+            <p>Signature scent for All-day power</p>
+        </div></a>
+
+        <div class="card">
+            <h3>Royal Prophesy</h3>
+            <p>Evenings & Statement moments</p>
+        </div></a>
+
+        <div class="card">
+            <h3>Blue Lady</h3>
+            <p>For Daily-Wear, Office & Day Events</p>
+        </div></a>
+
+        <div class="card">
+            <h3>XX Black</h3>
+            <p>Night Parties & Bold Impressions</p>
+        </div></a>
+    </div>
+</section>
+<!-- TRUST SECTION -->
+<section class="trust-section">
+    <div class="container">
+        <h2 class="section-title">Trusted by 22+ Customers</h2>
+        <p class="trust-subtext">
+            Handcrafted in small batches. Carefully blended. Loved by our early supporters.
+        </p>
+
+        <div class="trust-grid">
+            <div class="trust-card">
+                <h3>Small Batch Crafted</h3>
+                <p>Every bottle of HARMONY is blended and prepared in controlled small batches to ensure quality and consistency.</p>
+            </div>
+
+            <div class="trust-card">
+                <h3>Shipping</h3>
+                <p>We deliver across Mumbai within 3–5 working days. Secure packaging ensures zero leakage.</p>
+            </div>
+
+            <div class="trust-card">
+                <h3>Quality Tested</h3>
+                <p>Each batch is tested before dispatch to ensure smooth performance and lasting fragrance.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- TESTIMONIAL SECTION -->
+<section class="testimonial-section">
+    <div class="container">
+        <h2 class="section-title">What Our Customers Say</h2>
+
+        <div class="testimonial-grid">
+            <div class="testimonial-card">
+                <p>"Didn’t expect this quality at ₹249. The fragrance lasts surprisingly long!"</p>
+                <span>- Aarav S.</span>
+            </div>
+
+            <div class="testimonial-card">
+                <p>"Smells premium and packaging was clean. Definitely ordering again."</p>
+                <span>- Riya M.</span>
+            </div>
+
+            <div class="testimonial-card">
+                <p>"Perfect daily wear perfume. Great value for money."</p>
+                <span>- Kunal P.</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- FAQ SECTION -->
+<section class="faq-section">
+    <div class="container">
+        <h2 class="section-title">Frequently Asked Questions</h2>
+
+        <div class="faq-item">
+            <h4>How long does the fragrance last?</h4>
+            <p>On average, 4–6 hours depending on skin type and environment.</p>
+        </div>
+
+        <div class="faq-item">
+            <h4>How do I place an order?</h4>
+            <p>Click the "Shop Now" button given below <i class="fa-solid fa-arrow-down"></i> to place a private order via WhatsApp.</p>
+        </div>
+
+    </div>
+</section>
+
+<!-- SIGNATURE FINDER -->
+<section class="signature-section section">
+    <h2>Find Your Signature Symphony</h2>
+    <p>Discover the fragrance that aligns with your personality.</p>
+
+    <div class="signature-box">
+        <input type="date" id="birthdate">
+
+        <select id="genderSelect">
+            <option value="">Select Preference</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="unisex">Unisex</option>
+        </select>
+
+        <button id="findSignature" class="cta-btn">
+            Discover My Fragrance
+        </button>
+    </div>
+
+    <div id="resultBox" class="result-box"></div>
+</section>
+
+<!-- Contact -->
+<section id="contact" class="section fade">
+    <h2>Or Just Choose On Your Own!</h2>
+    <a 
+href=""
+class="cta-btn magnetic">
+Shop Now
+</a>
+
+</section>
+
+<!-- Particles Canvas -->
+<canvas id="particles"></canvas>
+
+<script src="script.js"></script>
+</body>
+</html>
